@@ -1,20 +1,23 @@
 package com.itheima.demo1exception;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.InputStream;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class ExceptionDemo1 {
     public static void main(String[] args)  {
         // 目标：认识异常的体系，搞清楚异常的基本作用。
-        // show();
-        try {
-            // 监视代码，出现异常，会被catch拦截住这个异常
+        // show()
+        try{
             show2();
-        } catch (Exception e) {
-            e.printStackTrace(); // 打印这个异常信息
         }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+
     }
 
     // 定义一个方法认识编译异常。
