@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Day01-Collection/Day01-collection.iml" filepath="$PROJECT_DIR$/Day01-Collection/Day01-collection.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaSeProjectAiMax.iml" filepath="$PROJECT_DIR$/JavaSeProjectAiMax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01-异常、泛型、集合框架/Day01-Collection/Day01-Collection.iml" filepath="$PROJECT_DIR$/day01-异常、泛型、集合框架/Day01-Collection/Day01-Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02-集合框架/代码/代码.iml" filepath="$PROJECT_DIR$/day02-集合框架/代码/代码.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01-异常、泛型、集合框架/作业/作业.iml" filepath="$PROJECT_DIR$/day01-异常、泛型、集合框架/作业/作业.iml" />
     </modules>
   </component>
 </project>
