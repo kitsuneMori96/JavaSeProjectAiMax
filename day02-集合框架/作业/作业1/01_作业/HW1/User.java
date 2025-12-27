@@ -3,7 +3,6 @@ package HW1;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -23,12 +22,19 @@ public class User {
 }
 
 class Main {
-    public static void main(String[] args) {
-        User user = new User();
+        static void main(String[] args) {
         User.addUser("user1", "password1");
         User.addUser("user2", "password2");
         User.addUser("user3", "password3");
+        HashMap<String, String> userMap = User.getUserMap();
+        userMap.forEach((username, password) -> {
+            System.out.println("用户名：" + username + " 密码：" + password);
+        });
         register();
+    }
+
+    public static void showUser() {
+
     }
 
     public static void register() {
