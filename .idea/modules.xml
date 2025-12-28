@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/day02-集合框架/作业/Landlord/Landlord.iml" filepath="$PROJECT_DIR$/day02-集合框架/作业/Landlord/Landlord.iml" />
       <module fileurl="file://$PROJECT_DIR$/day02-集合框架/代码/代码.iml" filepath="$PROJECT_DIR$/day02-集合框架/代码/代码.iml" />
       <module fileurl="file://$PROJECT_DIR$/day02-集合框架/作业/作业3.iml" filepath="$PROJECT_DIR$/day02-集合框架/作业/作业3.iml" />
     </modules>
