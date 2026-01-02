@@ -11,18 +11,10 @@ public class RecursionDemo3 {
         // 终结点： f(10) = 1
 
         // 递归的方向: 没有问题的
-
-        System.out.println(f(1));
-        System.out.println(f(2));
-        System.out.println(f(3));
-        System.out.println(f(4));
+        
     }
 
     public static int f(int n) {
-        if (n == 10) {
-            return 1;
-        } else {
-            return 2 * f(n + 1) + 2;
-        }
+        
     }
 }

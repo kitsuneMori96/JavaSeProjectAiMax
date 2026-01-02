@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/day02-集合框架/作业/Landlord/Landlord.iml" filepath="$PROJECT_DIR$/day02-集合框架/作业/Landlord/Landlord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03-FIle、字符集、IO流/代码/day03-file-io/day03-file-io.iml" filepath="$PROJECT_DIR$/day03-FIle、字符集、IO流/代码/day03-file-io/day03-file-io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03-FIle、字符集、IO流/代码/stonemaze/stonemaze.iml" filepath="$PROJECT_DIR$/day03-FIle、字符集、IO流/代码/stonemaze/stonemaze.iml" />
       <module fileurl="file://$PROJECT_DIR$/day02-集合框架/代码/代码.iml" filepath="$PROJECT_DIR$/day02-集合框架/代码/代码.iml" />
       <module fileurl="file://$PROJECT_DIR$/day02-集合框架/作业/作业3.iml" filepath="$PROJECT_DIR$/day02-集合框架/作业/作业3.iml" />
     </modules>
