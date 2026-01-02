@@ -15,6 +15,6 @@ public class RecursionDemo3 {
     }
 
     public static int f(int n) {
-        
+        return 0;
     }
 }

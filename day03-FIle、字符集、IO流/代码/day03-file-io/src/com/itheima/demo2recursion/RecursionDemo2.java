@@ -7,10 +7,10 @@ public class RecursionDemo2 {
     }
 
     public static int f(int n){
-        
+        return 0;
     }
 
     public static int f2(int n){
-        
+        return 0;
     }
 }
