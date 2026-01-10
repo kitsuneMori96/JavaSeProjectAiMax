@@ -9,7 +9,7 @@ import java.io.*;
 // 自定义窗口类，创建对象，展示一个主窗口。
 public class MainFrame extends JFrame {
     // 设置图片位置
-    private static final String imagePath = "stonemaze/src/image/";
+    private static final String imagePath = "day03-FIle、字符集、IO流/代码/stonemaze/src/image/";
     // 准备一个数组，用户存储数字色块的行列位置: 4行4列
     private int[][] imageData = {
             {1,2,3,4},
@@ -269,7 +269,7 @@ public class MainFrame extends JFrame {
     // 把当前最少步数写入到文件中去更新
     private void writeFileScore(int count) {
         try(
-                FileWriter fw = new FileWriter("stonemaze/src/score.txt");
+                FileWriter fw = new FileWriter("day03-FIle、字符集、IO流/代码/stonemaze/src/score.txt");
                 BufferedWriter bw = new BufferedWriter(fw);
                 ) {
             // 把当前步数写入到文件中去
@@ -282,7 +282,7 @@ public class MainFrame extends JFrame {
     // 读取score.txt文件中的最小步数。
     private int readFileScore() {
         try(
-                FileReader fr = new FileReader("stonemaze/src/score.txt");
+                FileReader fr = new FileReader("day03-FIle、字符集、IO流/代码/stonemaze/src/score.txt");
                 BufferedReader br = new BufferedReader(fr);
                 ) {
             // 读取文件中的最小步数
