@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/day02-集合框架/作业/Landlord/Landlord.iml" filepath="$PROJECT_DIR$/day02-集合框架/作业/Landlord/Landlord.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day03-FIle、字符集、IO流/代码/day03-file-io/day03-file-io2.iml" filepath="$PROJECT_DIR$/day03-FIle、字符集、IO流/代码/day03-file-io/day03-file-io2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day04-多线程/day04-多线程.iml" filepath="$PROJECT_DIR$/day04-多线程/day04-多线程.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day03-FIle、字符集、IO流/代码/stonemaze/stonemaze2.iml" filepath="$PROJECT_DIR$/day03-FIle、字符集、IO流/代码/stonemaze/stonemaze2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day02-集合框架/代码/代码.iml" filepath="$PROJECT_DIR$/day02-集合框架/代码/代码.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day03-FIle、字符集、IO流/作业/作业.iml" filepath="$PROJECT_DIR$/day03-FIle、字符集、IO流/作业/作业.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day05-网络编程/综合项目实战：局域网内的沟通软件/代码/itheima-chat-server/itheima-chat-server.iml" filepath="$PROJECT_DIR$/day05-网络编程/综合项目实战：局域网内的沟通软件/代码/itheima-chat-server/itheima-chat-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day05-网络编程/综合项目实战：局域网内的沟通软件/代码/itheima-chat-system/itheima-chat-system.iml" filepath="$PROJECT_DIR$/day05-网络编程/综合项目实战：局域网内的沟通软件/代码/itheima-chat-system/itheima-chat-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day05-网络编程/代码/代码2.iml" filepath="$PROJECT_DIR$/day05-网络编程/代码/代码2.iml" />
     </modules>
   </component>
 </project>
