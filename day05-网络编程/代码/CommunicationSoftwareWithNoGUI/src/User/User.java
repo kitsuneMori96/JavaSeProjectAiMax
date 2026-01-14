@@ -8,12 +8,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+// 用户类，程序入口
 public class User {
     static void main(String[] args) {
         new LoginFrame();
     }
 }
 
+// 登录窗口类，负责用户登录
 class LoginFrame {
     public LoginFrame() {
         Scanner scanner = new Scanner(System.in);
@@ -23,6 +25,7 @@ class LoginFrame {
     }
 }
 
+// 聊天窗口类，负责聊天功能
 class ChatFrame {
     public static final int PORT = 8080;
     private static String username;
@@ -36,7 +39,7 @@ class ChatFrame {
         try(
                 Scanner scanner = new Scanner(System.in);
                 Socket socket = new Socket("127.0.0.1", PORT)
-                ) {
+        ) {
             ChatFrame.socket = socket;
             new Thread(new ReceiveThread()).start();
             send(1, socket, scanner);
@@ -48,8 +51,8 @@ class ChatFrame {
         }
     }
 
+    // 发送消息方法，根据类型发送不同消息
     public void send(int type, Socket socket, Scanner scanner) {
-
         OutputStream outputStream = null;
         try {
             outputStream = socket.getOutputStream();
@@ -81,6 +84,7 @@ class ChatFrame {
     }
 }
 
+// 接收消息线程类，负责接收服务器发送的消息
 class ReceiveThread implements Runnable {
     private List<String> userList = new ArrayList<>();
 

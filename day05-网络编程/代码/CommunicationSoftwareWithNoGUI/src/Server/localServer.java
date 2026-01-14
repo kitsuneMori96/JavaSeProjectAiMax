@@ -13,22 +13,26 @@ import java.util.Map;
 import static Server.Server.PORT;
 import static Server.localServer.flushUserList;
 
+// 本地服务器类，负责管理用户列表和用户连接
 public class localServer {
     @Getter
     private static List<String> userList = new ArrayList<>();
     @Getter
     private static Map<Socket,String> userMap = new HashMap<>();
 
+    // 主方法，启动服务器
     static void main(String[] args) {
         startServer();
     }
 
+    // 刷新用户列表，移除断开连接的用户
     public static void flushUserList( Socket accept ) {
         userList.remove(userMap.get(accept));
         userMap.remove(accept);
         new Thread(new userListThread(accept)).start();
     }
 
+    // 启动服务器，监听客户端连接
     public static void startServer() {
         Socket accept = null;
         try (
@@ -48,6 +52,7 @@ public class localServer {
     }
 }
 
+// 处理客户端连接的线程类
 class startServerThread implements Runnable {
     private Socket accept;
     private boolean flag = true;
@@ -81,6 +86,7 @@ class startServerThread implements Runnable {
     }
 }
 
+// 处理服务器端消息传输的线程类
 class ServerRunnable implements  Runnable{
     private Socket socket;
 
@@ -114,6 +120,7 @@ class ServerRunnable implements  Runnable{
     }
 }
 
+// 更新客户端用户列表的线程类
 class userListThread implements Runnable {
     private Socket accept;
 
