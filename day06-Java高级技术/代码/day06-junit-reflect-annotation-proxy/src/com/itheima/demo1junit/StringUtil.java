@@ -4,21 +4,16 @@ package com.itheima.demo1junit;
  */
 public class StringUtil {
     public static void printNumber(String name){
-        if(name == null){
-            System.out.println("参数为null！请注意");
-            return;
-        }
-        System.out.println("名字长度是：" + name.length());
+        if(name == null || name.equals("")) System.out.println("名字为空");
+        else System.out.println("名字长度是：" + name.length());
     }
 
     /**
      * 求字符串的最大索引
      */
     public static int getMaxIndex(String data){
-        if(data == null || "".equals(data)) {
-            return -1;
-        }
-        return data.length() - 1;
+        if(data == null || data.equals("")) return -1;
+        return data.length()-1;
     }
 }
 

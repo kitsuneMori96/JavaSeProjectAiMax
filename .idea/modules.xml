@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/day05-网络编程/综合项目实战：局域网内的沟通软件/代码/itheima-chat-server/itheima-chat-server.iml" filepath="$PROJECT_DIR$/day05-网络编程/综合项目实战：局域网内的沟通软件/代码/itheima-chat-server/itheima-chat-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day05-网络编程/综合项目实战：局域网内的沟通软件/代码/itheima-chat-system/itheima-chat-system.iml" filepath="$PROJECT_DIR$/day05-网络编程/综合项目实战：局域网内的沟通软件/代码/itheima-chat-system/itheima-chat-system.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day05-网络编程/代码/代码2.iml" filepath="$PROJECT_DIR$/day05-网络编程/代码/代码2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day06-Java高级技术/day06-Java高级技术.iml" filepath="$PROJECT_DIR$/day06-Java高级技术/day06-Java高级技术.iml" />
     </modules>
   </component>
 </project>
